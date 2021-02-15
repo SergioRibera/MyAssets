@@ -289,6 +289,7 @@ GameObject:
   - component: {fileID: 250963432}
   - component: {fileID: 250963431}
   - component: {fileID: 250963430}
+  - component: {fileID: 250963434}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -382,6 +383,30 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &250963434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250963429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9c0e2bfefe130df1ab6f9ad9a830f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doNetwork: 0
+  networkUrl: 
+  localUrl: 192.168.0.1
+  port: 1111
+  settings:
+    url: 
+    port: 0
+    sslEnabled: 0
+    reconnectTime: 0
+    timeToDropAck: 0
+    pingTimeout: 0
+    pingInterval: 0
 --- !u!1 &455320711
 GameObject:
   m_ObjectHideFlags: 0
